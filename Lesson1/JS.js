@@ -28,10 +28,10 @@
 // console.log(`${b}`+` = `+ typeof b);
 // console.log(`${c}`+` = `+ typeof c);
 ///////////////////////////////////////////////////////
-// let name = prompt(`Імя?`)
-// console.log(name);
-// let fname = prompt(`По-Батькові?`)
-// console.log(fname);
-// let age = +prompt(`вік?`)
-// console.log(age);
+let name = prompt(`Імя?`)
+console.log(name);
+let fname = prompt(`По-Батькові?`)
+console.log(fname);
+let age = +prompt(`вік?`)
+console.log(age);
 

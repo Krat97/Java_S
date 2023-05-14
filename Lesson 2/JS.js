@@ -62,18 +62,46 @@
 //     console.log(`Невірно`);
 // }
 //////////////////////////////////////////////////////////////////////////////////////////
-let title = +prompt(`Котра година?`);
-switch ( title ){
-    case (title < 14):
-        console.log(1);
-        break;
-    case (title < 29):
-        console.log(2);
-        break;
-    case  (title < 44) :
-        console.log(3);
-        break;
-    case (title < 59):
-        console.log( 4);
-        break;
+// let title = +prompt(`Котра година?`);
+// let title = 48;
+// switch ( title ){
+//     case (title>=0 && title <= 15):
+//         console.log(1);
+//         break;
+//     case (title>15 && title <= 30):
+//         console.log(2);
+//         break;
+//     case  (title>30 && title <= 45) :
+//         console.log(3);
+//         break;
+//     case (title>45 && title <=59):
+//         console.log( 4);
+//         break;
+//     default:{
+//         console.log(`????????.`)
+//         }
+// }
+//////////////////////////////////////////////////////////////////////////////////////
+// - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).ду
+let HW = 5;
+switch (HW){
+    case 1 :
+        console.log(`mn`); break;
+    case 2  :
+        console.log(`tw`);break;
+    case 3 :
+        console.log(`wn`);break;
+    case 4 :
+        console.log(`Fozdey`);break;
+    case 5 :
+        console.log(`wWWW`);break;
+    case 6 :
+        console.log(`son`);break;
+    case 7 :
+        console.log(`Sann`);break;
+    default:{
+
+        console.log(`??????.`);break;
+    }
+
 }
